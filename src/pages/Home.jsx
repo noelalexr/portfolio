@@ -56,7 +56,7 @@ const Home = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.7, ease: "easeOut" }}
-                className="text-center md:py-20 py-[25%] bg-gray-100 relative shadow-sm"
+                className="text-center md:py-20 pb-[45vh] pt-20 bg-gray-100 relative shadow-sm"
             >
                 <div className="pb-5 flex gap-3 justify-center items-center text-black/80">
                     <p className="md:text-4xl text-xl md:pt-7 pt-[13px]">I'm </p>
