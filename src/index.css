@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.font-marker {
+    font-family: "Permanent Marker", cursive;
+}
+
+.font-courier {
+    font-family: "Courier Prime", monospace;
+}
+
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.font-paytone {
+    font-family: "Paytone One", sans-serif;
+}
