@@ -108,10 +108,10 @@ const Home = () => {
                         transition={{ duration: 0.3, ease: "easeOut" }}
                         viewport={{ once: true }}
                         href="/projects"
-                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] active:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto"
+                        className="group relative flex justify-center items-center bg-[#262626] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#0D0D0D] active:bg-[#0D0D0D] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto"
                     >
                         <img src="/images/icons/projects.png" alt="projects" className="w-18" />
-                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#404040] group-hover:text-[#242424] group-active:text-[#242424] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">Projects</p>
+                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#262626] group-hover:text-[#0D0D0D] group-active:text-[#0D0D0D] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">Projects</p>
                     </motion.a>
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -129,9 +129,9 @@ const Home = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.3, ease: "easeOut", delay: 0.1 }}
                         viewport={{ once: true }} href="/about"
-                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] active:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
+                        className="group relative flex justify-center items-center bg-[#262626] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#0D0D0D] active:bg-[#0D0D0D] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
                         <img src="/images/icons/about.png" alt="projects" className="w-20 m-auto" />
-                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#404040] group-hover:text-[#242424] group-active:text-[#242424] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">About me</p>
+                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#262626] group-hover:text-[#0D0D0D] group-active:text-[#0D0D0D] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">About me</p>
                     </motion.a>
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -150,9 +150,9 @@ const Home = () => {
                         transition={{ duration: 0.3, ease: "easeOut", delay: 0.2 }}
                         viewport={{ once: true }}
                         href="/contact"
-                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] active:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
+                        className="group relative flex justify-center items-center bg-[#262626] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#0D0D0D] active:bg-[#0D0D0D] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
                         <img src="/images/icons/email.png" alt="projects" className="w-20 m-auto" />
-                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#404040] group-hover:text-[#242424] group-active:text-[#242424] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">Contact me</p>
+                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#262626] group-hover:text-[#0D0D0D] group-active:text-[#0D0D0D] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">Contact me</p>
                     </motion.a>
                 </div>
             </div>
