@@ -28,7 +28,7 @@ const Home = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 1, ease: "easeOut" }}
-                    className="absolute bottom-0 z-10 flex lg:gap-160 md:gap-105 gap-48 lg:pb-3 md:pb-1 text-black/20 font-courier md:text-lg text-xs font-bold"
+                    className="absolute bottom-0 z-10 flex lg:gap-160 md:gap-105 gap-48 lg:pb-3 md:pb-1 text-black/40 font-courier md:text-lg text-[8px] font-bold"
                 >
                     <p className="">&lt;frontend&gt;</p>
                     <p className="">&lt;backend&gt;</p>
@@ -69,13 +69,13 @@ const Home = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.7, ease: "easeOut" }}
-                className="text-center pb-20 pt-18 bg-gray-100 relative shadow-sm z-2"
+                className="text-center pb-20 pt-17 bg-gray-100 relative shadow-sm z- px-8"
             >
                 <div className="pb-5 flex gap-3 justify-center items-center text-black/80">
                     <p className="md:text-4xl text-xl md:pt-7 pt-[13px]">I'm </p>
                     <p className="md:text-[65px] text-4xl font-bold tracking-wider font-paytone"> Alexander</p>
                 </div>
-                <p className="text-black/50 md:w-150 w-60 mx-auto text-lg">With a background in design engineering, I bring a problem-solving mindset into web development. I recently completed a full stack web development bootcamp and enjoy building responsive, user-focused web applications that solve real-world problems.</p>
+                <p className="text-black/50 md:w-180 mx-auto md:text-lg">With a background in design engineering, I bring a problem-solving mindset into web development. I recently completed a full stack web development bootcamp and enjoy building responsive, user-focused web applications that solve real-world problems.</p>
             </motion.div>
 
             <div className="bg-white py-20 z-1 relative shadow-sm overflow-hidden">
@@ -86,9 +86,9 @@ const Home = () => {
                     viewport={{ once: true }}
                     className="md:flex flex-row justify-center items-center gap-5 pb-10 hidden"
                 >
-                    <div className="bg-black/15 h-[2px] lg:w-[20%] w-[15%] my-auto"></div>
+                    <div className="bg-black/15 h-[2px] max-w-70 lg:w-[20%] w-[15%] my-auto"></div>
                     <p className="text-lg text-black/45 text-center my-auto">Dive into my projects, learn more about me, or get in touch!</p>
-                    <div className="bg-black/15 h-[2px] lg:w-[20%] w-[15%] my-auto"></div>
+                    <div className="bg-black/15 h-[2px] max-w-70 lg:w-[20%] w-[15%] my-auto"></div>
                 </motion.div>
                 <div className="flex md:flex-row flex-col justify-center md:gap-20 gap-5">
                     <motion.div
@@ -164,10 +164,10 @@ const Home = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.7, ease: "easeOut" }}
                         viewport={{ once: true }}
-                        className="md:text-right text-center my-auto md:w-100 px-5"
+                        className="md:text-right my-auto md:w-100 px-8"
                     >
                         <p className="text-3xl text-black/75 pb-5">Resume</p>
-                        <p className="text-black/50 text-lg my-auto">Want to know more about my skills and experience? Feel free to view my resume or download it here!</p>
+                        <p className="text-black/50 md:text-lg my-auto">Want to know more about my skills and experience? Feel free to view my resume or download it here!</p>
                     </motion.div>
                     <motion.a
                         initial={{ opacity: 0, x: "100%" }}

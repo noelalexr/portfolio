@@ -43,12 +43,12 @@ const Contact = () => {
                     initial={{ y: "100%", opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.3, delay: 1 }}
-                    className="max-w-100 md:text-right text-center md:mx-0 mx-auto md:px-0 px-5"
+                    className="max-w-100 md:text-right md:mx-0 mx-auto md:px-0 px-8"
                 >
                     <p className="font-paytone text-5xl pb-5 text-black/80 pt-10">Contact me</p>
                     <p className="text-black/50 text-lg">If you have a project in mind, want to work with me, or have a question, feel free to reach out on social media or send me an email.</p>
                 </motion.div>
-                <div className="lg:px-20 flex flex-col md:gap-5 gap-3 md:mx-0 mx-auto">
+                <div className="lg:px-20 flex flex-col md:gap-5 gap-3 pl-13">
                     <motion.a
                         initial={{ x: "75vw", opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
@@ -85,7 +85,7 @@ const Contact = () => {
                 className="bg-gray-100 py-20 relative shadow-sm"
             >
                 <div className="">
-                    <p className="text-3xl text-black/75 text-center pb-10">Send me an email</p>
+                    <p className="text-3xl text-black/75 pb-10 px-8 md:text-center">Send me an email</p>
                     <form onSubmit={handleSubmit}>
                         <div className="flex lg:flex-row flex-col justify-center gap-10">
                             <div className="flex flex-col gap-3">
@@ -134,7 +134,7 @@ const Contact = () => {
                                     <button
                                         type="submit"
                                         disabled={isLoading}
-                                        className={`bg-black/70 text-white h-10 w-42 rounded-md md:mt-3 mt-2 md:ml-auto md:mx-0 mx-auto transition-all duration-300 hover:bg-black/80 active:bg-black/80 cursor-pointer ${isLoading ? "opacity-50 cursor-not-allowed" : ""
+                                        className={`bg-black/70 text-white h-10 w-42 rounded-md md:mt-3 mt-2 md:ml-auto ml-auto transition-all duration-300 hover:bg-black/80 active:bg-black/80 cursor-pointer ${isLoading ? "opacity-50 cursor-not-allowed" : ""
                                             }`}
                                     >
                                         {isLoading ? (

@@ -30,7 +30,7 @@ const About = () => {
         return (
             <div ref={ref} className="mb-4 md:w-80 w-60 lg:mx-10 mx-8">
                 <div className="flex justify-between mb-0">
-                    <span className="text-black/60 text-lg">{name}</span>
+                    <span className="text-black/60 md:text-lg">{name}</span>
                     <span className="text-black/45 mt-auto">{level}%</span>
                 </div>
                 <div className=" bg-gray-300/50 rounded-sm h-7 overflow-hidden">
@@ -86,10 +86,10 @@ const About = () => {
                     initial={{ x: "-50%", opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.3, delay: 1.3, ease: "easeOut" }}
-                    className="text-center px-5 md:hidden max-w-120 mx-auto"
+                    className="text-left px-8 md:hidden max-w-120 mx-auto"
                 >
                     <p className="font-paytone text-5xl pb-5 text-black/80 pt-10">About me</p>
-                    <p className="text-black/50 text-lg">Hi there! I'm Alexander, a design engineer turned full-stack web developer. I'm passionate about building meaningful, user-focused solutions through code and design. Right now, I'm focused on growing my skills in modern web technologies and creating projects that solve real-world problems while showcasing my creativity and technical ability.</p>
+                    <p className="text-black/50 text-md">Hi there! I'm Alexander, a design engineer turned full-stack web developer. I'm passionate about building meaningful, user-focused solutions through code and design. Right now, I'm focused on growing my skills in modern web technologies and creating projects that solve real-world problems while showcasing my creativity and technical ability.</p>
                 </motion.div>
             </div>
             <motion.div
@@ -111,7 +111,7 @@ const About = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.3, delay: 1.7, ease: "easeOut" }}
-                className="flex md:flex-row py-20 justify-center lg:gap-60 md:gap-30 gap-20 flex-col text-center shadow-sm relative z-2"
+                className="flex md:flex-row py-20 justify-center lg:gap-60 md:gap-30 gap-20 flex-col text-center shadow-sm relative z-2 px-8"
             >
                 <div className="flex flex-col gap-5">
                     <p className="text-3xl text-black/75">Job Experience</p>
@@ -157,11 +157,11 @@ const About = () => {
                 transition={{ duration: 0.3, delay: 1.7, ease: "easeOut" }}
                 className="bg-[url('/images/backgrounds/nature.jpg')] bg-cover bg-center w-full shadow-sm shadow-gray-400 relative z-1">
                 <div
-                    className="text-center bg-white/50 py-20"
+                    className="md:text-center bg-white/50 py-20"
                 >
-                    <div className="max-w-130 px-5 mx-auto z-5">
+                    <div className="max-w-170 px-8 mx-auto z-5">
                         <p className="text-3xl text-black/70 pb-5">More About Me</p>
-                        <p className="text-black/50 text-lg">Outside of coding, I enjoy riding my motorcycle, diving into story-driven video games, and getting lost in music. These hobbies keep me balanced and inspired. Whether I'm cruising down open roads, exploring virtual worlds, or discovering new sounds, I always come back with fresh ideas and energy for building cool things with code.</p>
+                        <p className="text-black/50 md:text-lg">Outside of coding, I enjoy riding my motorcycle, diving into story-driven video games, and getting lost in music. These hobbies keep me balanced and inspired. Whether I'm cruising down open roads, exploring virtual worlds, or discovering new sounds, I always come back with fresh ideas and energy for building cool things with code.</p>
                     </div>
                 </div>
             </motion.div>

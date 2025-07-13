@@ -8,10 +8,10 @@ const Projects = () => {
                     initial={{ y: "100%", opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.2, delay: 1.2, ease: "easeOut" }}
-                    className="md:text-right md:max-w-100 max-w-120 md:my-auto md:mx-0 mx-auto text-center md:px-0 px-3"
+                    className="md:text-right md:max-w-100 max-w-120 md:my-auto md:mx-0 mx-auto md:px-0 px-8"
                 >
                     <p className="font-paytone text-5xl pb-5 text-black/80">Projects</p>
-                    <p className="text-black/50 text-lg">Here are the apps I've built, thoughtfully designed to be easy to use, visually polished, and focused on delivering a smooth user experience.</p>
+                    <p className="text-black/50 md:text-lg">Here are the apps I've built, thoughtfully designed to be easy to use, visually polished, and focused on delivering a smooth user experience.</p>
                 </motion.div>
                 <motion.div
                     initial={{ y: "100%", opacity: 0 }}
