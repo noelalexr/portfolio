@@ -16,7 +16,7 @@ const Home = () => {
 
     return (
         <div>
-            <div className="flex justify-center relative md:gap-50 gap-20 bg-white min-w-screen lg:h-127 md:h-90 h-40 overflow-hidden shadow-sm z-2">
+            <div className="flex justify-center relative md:gap-50 gap-20 bg-white min-w-screen lg:h-127 md:h-90 h-40 overflow-hidden shadow-sm z-3">
                 <div className="bg-white/7 absolute left-1/2 -translate-x-1/2 bottom-0 w-160 h-120 z-2"></div>
                 <motion.img
                     initial={{ opacity: 0 }}
@@ -69,7 +69,7 @@ const Home = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.7, ease: "easeOut" }}
-                className="text-center py-20 bg-gray-100 relative shadow-sm z-1"
+                className="text-center py-20 bg-gray-100 relative shadow-sm z-2"
             >
                 <div className="pb-5 flex gap-3 justify-center items-center text-black/80">
                     <p className="md:text-4xl text-xl md:pt-7 pt-[13px]">I'm </p>
@@ -78,7 +78,7 @@ const Home = () => {
                 <p className="text-black/50 md:w-150 w-60 mx-auto md:text-[17px] text-sm">With a background in design engineering, I bring a problem-solving mindset into web development. I recently completed a full stack web development bootcamp and enjoy building responsive, user-focused web applications that solve real-world problems.</p>
             </motion.div>
 
-            <div className="bg-white py-20 relative shadow-sm overflow-hidden">
+            <div className="bg-white py-20 z-1 relative shadow-sm overflow-hidden">
                 <motion.div
                     initial={{ opacity: 0, y: "-120%" }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -108,7 +108,7 @@ const Home = () => {
                         transition={{ duration: 0.3, ease: "easeOut" }}
                         viewport={{ once: true }}
                         href="/projects"
-                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto"
+                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] active:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto"
                     >
                         <img src="/images/icons/projects.png" alt="projects" className="w-18" />
                         <p className="absolute bottom-0 group-hover:-bottom-9 text-[#404040] group-hover:text-[#242424] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">Projects</p>
@@ -129,7 +129,7 @@ const Home = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.3, ease: "easeOut", delay: 0.1 }}
                         viewport={{ once: true }} href="/about"
-                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
+                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] active:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
                         <img src="/images/icons/about.png" alt="projects" className="w-20 m-auto" />
                         <p className="absolute bottom-0 group-hover:-bottom-9 text-[#404040] group-hover:text-[#242424] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">About me</p>
                     </motion.a>
@@ -150,14 +150,14 @@ const Home = () => {
                         transition={{ duration: 0.3, ease: "easeOut", delay: 0.2 }}
                         viewport={{ once: true }}
                         href="/contact"
-                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
+                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] active:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
                         <img src="/images/icons/email.png" alt="projects" className="w-20 m-auto" />
                         <p className="absolute bottom-0 group-hover:-bottom-9 text-[#404040] group-hover:text-[#242424] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">Contact me</p>
                     </motion.a>
                 </div>
             </div>
 
-            <div className="bg-gray-100 py-20">
+            <div className="bg-gray-100 py-20 relative shadow-sm">
                 <div className=" flex md:flex-row flex-col justify-center gap-10">
                     <motion.div
                         initial={{ opacity: 0, x: "-100%" }}
@@ -174,7 +174,7 @@ const Home = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.3, ease: "easeOut" }}
                         viewport={{ once: true }}
-                        a href="https://drive.google.com/file/d/1ypxM6ttVSOhLz0RX978Kk5V20_-uMJrC/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center bg-gray-700 w-40 h-30 rounded-2xl shadow-md shadow-gray-500 hover:bg-gray-800 hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer my-auto lg:mx-15 md:mx-10 mx-auto"
+                        a href="https://drive.google.com/file/d/1ypxM6ttVSOhLz0RX978Kk5V20_-uMJrC/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center bg-gray-700 w-40 h-30 rounded-2xl shadow-md shadow-gray-500 hover:bg-gray-800 active:bg-gray-800 hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer my-auto lg:mx-15 md:mx-10 mx-auto"
                     >
                         <img src="/images/icons/resume.png" alt="projects" className="w-20 m-auto" />
                     </motion.a>

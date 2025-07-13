@@ -38,7 +38,7 @@ const Layout = () => {
                     >
                         <button
                             onClick={scrollToTop}
-                            className="bg-black/75 text-white py-4 px-3 rounded-l-full shadow-md cursor-pointer hover:pr-6 transition-all duration-500"
+                            className="bg-black/75 hover:bg-black/90 active:bg-black/90 text-white py-4 px-3 rounded-l-full shadow-md cursor-pointer hover:pr-6 transition-all duration-500"
                             title="Back to top"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8">
