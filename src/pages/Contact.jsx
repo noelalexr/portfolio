@@ -46,7 +46,7 @@ const Contact = () => {
                     className="max-w-100 md:text-right md:mx-0 mx-auto md:px-0 px-8"
                 >
                     <p className="font-paytone text-5xl pb-5 text-black/80 pt-10">Contact me</p>
-                    <p className="text-black/50 text-lg">If you have a project in mind, want to work with me, or have a question, feel free to reach out on social media or send me an email.</p>
+                    <p className="text-black/50 md:text-lg">If you have a project in mind, want to work with me, or have a question, feel free to reach out on social media or send me an email.</p>
                 </motion.div>
                 <div className="lg:px-20 flex flex-col md:gap-5 gap-3 pl-13">
                     <motion.a
