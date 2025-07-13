@@ -1,8 +1,27 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion"
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const menuRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (menuRef.current && !menuRef.current.contains(event.target)) {
+                setIsOpen(false);
+            }
+        };
+
+        if (isOpen) {
+            document.addEventListener("mousedown", handleClickOutside);
+        } else {
+            document.removeEventListener("mousedown", handleClickOutside);
+        }
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, [isOpen]);
 
     return (
         <div className="relative z-50">
@@ -50,6 +69,7 @@ const Header = () => {
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
+                        ref={menuRef}
                         initial={{ x: "100%", opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.3, ease: "easeOut" }}
