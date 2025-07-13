@@ -66,11 +66,11 @@ const About = () => {
                         }}
                         transition={{
                             duration: 0.5,
-                            ease: "easeInOut",
+                            ease: "easeOut",
                             times: [0, 0.75, 1],
                             delay: 1
                         }}
-                        src="/images/me/3.png" alt="" className="w-[100%] h-[100%] bg-gray-100 rounded-full shadow-lg my-auto"
+                        src="/images/me/side.png" alt="" className="w-[100%] h-[100%] bg-gray-100 rounded-full shadow-lg my-auto"
                     />
                 </div>
                 <div className="relative my-auto mx-auto w-60 md:hidden">
@@ -79,7 +79,7 @@ const About = () => {
                         initial={{ x: "50%", opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.3, delay: 1, ease: "easeOut" }}
-                        src="/images/me/3.png" alt="" className="w-[100%] h-[100%] bg-gray-100 rounded-full shadow-lg my-auto"
+                        src="/images/me/side.png" alt="" className="w-[100%] h-[100%] bg-gray-100 rounded-full shadow-lg my-auto"
                     />
                 </div>
                 <motion.div
@@ -125,7 +125,7 @@ const About = () => {
                     <div>
                         <p className="font-semibold text-lg text-black/70">Technical Engineer</p>
                         <div className="text-black/40">
-                            <p>M5 Telecom SAolutions Inc.</p>
+                            <p>M5 Telecom Solutions Inc.</p>
                             <p>March 2020 - April 2021</p>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ const About = () => {
                 >
                     <div className="max-w-130 px-5 mx-auto z-5">
                         <p className="text-3xl text-black/70 pb-5">More About Me</p>
-                        <p className="text-black/40 text-lg">Outside of coding, I enjoy riding my motorcycle, diving into story-driven video games, and getting lost in music. These hobbies keep me balanced and inspired. Whether I'm cruising down open roads, exploring virtual worlds, or discovering new sounds, I always come back with fresh ideas and energy for building cool things with code.</p>
+                        <p className="text-black/50 text-lg">Outside of coding, I enjoy riding my motorcycle, diving into story-driven video games, and getting lost in music. These hobbies keep me balanced and inspired. Whether I'm cruising down open roads, exploring virtual worlds, or discovering new sounds, I always come back with fresh ideas and energy for building cool things with code.</p>
                     </div>
                 </div>
             </motion.div>

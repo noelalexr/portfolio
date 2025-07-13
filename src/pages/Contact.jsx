@@ -42,7 +42,7 @@ const Contact = () => {
                 <motion.div
                     initial={{ y: "100%", opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.6, delay: 1 }}
+                    transition={{ duration: 0.3, delay: 1 }}
                     className="max-w-100 md:text-right text-center md:mx-0 mx-auto md:px-0 px-5"
                 >
                     <p className="font-paytone text-5xl pb-5 text-black/80 pt-10">Contact me</p>
@@ -52,8 +52,8 @@ const Contact = () => {
                     <motion.a
                         initial={{ x: "75vw", opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
-                        transition={{ duration: 0.6, delay: 0.9 }}
-                        href="https://www.instagram.com/biscuitt___/" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out"
+                        transition={{ duration: 0.6, delay: 0.6 }}
+                        href="https://www.linkedin.com/in/noelalexander/" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out"
                     >
                         <img src="/images/icons/linkedin-original.png" alt="" className="md:w-15 w-12" />
                         <p className="text-[#0B69C7] my-auto text-lg font-bold">Linkedin</p>
@@ -61,14 +61,18 @@ const Contact = () => {
                     <motion.a
                         initial={{ x: "75vw", opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
-                        transition={{ duration: 0.6, delay: 1 }} href="https://www.facebook.com/noelalexr" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out">
+                        transition={{ duration: 0.6, delay: 0.7 }}
+                        href="https://www.facebook.com/noelalexr" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out"
+                    >
                         <img src="/images/icons/facebook-original.png" alt="" className="md:w-15 w-12" />
                         <p className="text-[#1877F2] my-auto text-lg font-bold">Facebook</p>
                     </motion.a>
                     <motion.a
                         initial={{ x: "75vw", opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
-                        transition={{ duration: 0.6, delay: 1.1 }} className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out">
+                        transition={{ duration: 0.6, delay: 0.8 }} className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out"
+                        href="https://www.instagram.com/biscuitt___/" target="_blank" rel="noopener noreferrer"
+                    >
                         <img src="/images/icons/instagram-original.png" alt="" className="md:w-15 w-12" />
                         <p className="bg-gradient-to-r from-[#FED41B] via-[#FA2084] to-[#9000DC] bg-clip-text text-transparent my-auto text-lg font-bold">Instagram</p>
                     </motion.a>
@@ -77,7 +81,7 @@ const Contact = () => {
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.6 }}
+                transition={{ duration: 0.6, delay: 1.9 }}
                 className="bg-gray-100 py-20 shadow-sm"
             >
                 <div className="">
@@ -130,7 +134,7 @@ const Contact = () => {
                                     <button
                                         type="submit"
                                         disabled={isLoading}
-                                        className={`bg-black/75 text-white h-10 w-42 rounded-md md:mt-3 mt-2 md:ml-auto md:mx-0 mx-auto transition-all duration-300 hover:bg-black/90 active:bg-black/90 cursor-pointer ${isLoading ? "opacity-50 cursor-not-allowed" : ""
+                                        className={`bg-black/70 text-white h-10 w-42 rounded-md md:mt-3 mt-2 md:ml-auto md:mx-0 mx-auto transition-all duration-300 hover:bg-black/80 active:bg-black/80 cursor-pointer ${isLoading ? "opacity-50 cursor-not-allowed" : ""
                                             }`}
                                     >
                                         {isLoading ? (

@@ -19,15 +19,15 @@ const Header = () => {
                         src="/images/logo/my-logo.png" alt="" className="w-[100%] h-[100%] rounded-full hover:scale-115 transition-all ease-out duration-500"
                     />
                 </a>
-                <div className="md:flex hidden gap-10">
+                <div className="md:flex hidden gap-15">
                     <div className="flex flex-row gap-5 text-white my-auto">
                         <a href="/about" className="hover:text-gray-400 active:text-gray-400 transition-all duration-300">About</a>
                         <a href="/projects" className="hover:text-gray-400 active:text-gray-400 transition-all duration-300">Projects</a>
-                        <p className="hover:text-gray-400 active:text-gray-400 transition-all duration-300">Resume</p>
+                        <a href="https://drive.google.com/file/d/1ypxM6ttVSOhLz0RX978Kk5V20_-uMJrC/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 active:text-gray-400 transition-all duration-300">Resume</a>
                         <a href="/contact" className="hover:text-gray-400 active:text-gray-400 transition-all duration-300">Contact</a>
                     </div>
-                    <div className="flex flex-row justify-center items-center gap-4">
-                        <a href="" className="w-8 h-8 my-auto relative">
+                    <div className="flex flex-row justify-center items-center gap-5">
+                        <a href="https://www.linkedin.com/in/noelalexander/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 my-auto relative">
                             <div className="hover:bg-black/45 absolute top-0 left-0 w-8 h-8 rounded-full transition-all duration-300"></div>
                             <img src="/images/icons/linkedin.png" alt="linkedin" className="w-8 h-8" />
                         </a>
@@ -35,7 +35,7 @@ const Header = () => {
                             <div className="hover:bg-black/45 absolute top-0 left-0 w-8 h-8 rounded-full transition-all duration-300"></div>
                             <img src="/images/icons/facebook.png" alt="linkedin" className="w-[100%] h-[100%]" />
                         </a>
-                        <a href="" className="w-8 h-8 my-auto relative">
+                        <a href="https://www.instagram.com/biscuitt___/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 my-auto relative">
                             <div className="hover:bg-black/45 absolute top-0 left-0 w-8 h-8 rounded-full transition-all duration-300"></div>
                             <img src="/images/icons/instagram.png" alt="linkedin" className="w-[100%] h-[100%]" />
                         </a>
@@ -58,10 +58,10 @@ const Header = () => {
                     >
                         <a href="/about" className="py-3 hover:bg-black active:bg-black transition-all duration-300">About</a>
                         <a href="/projects" className="py-3 hover:bg-black active:bg-black transition-all duration-300">Projects</a>
-                        <p className="py-3 hover:bg-black active:bg-black transition-all duration-300">Resume</p>
+                        <a href="https://drive.google.com/file/d/1ypxM6ttVSOhLz0RX978Kk5V20_-uMJrC/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="py-3 hover:bg-black active:bg-black transition-all duration-300">Resume</a>
                         <a href="/contact" className="py-3 hover:bg-black active:bg-black transition-all duration-300">Contact</a>
                         <div className={`flex flex-row justify-center items-center gap-8 py-5`}>
-                            <a href="" className="w-8 h-8 my-auto relative">
+                            <a href="https://www.linkedin.com/in/noelalexander/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 my-auto relative">
                                 <div className="hover:bg-black/45 absolute top-0 left-0 w-8 h-8 rounded-full transition-all duration-300"></div>
                                 <img src="/images/icons/linkedin.png" alt="linkedin" className="w-8 h-8" />
                             </a>
@@ -69,7 +69,7 @@ const Header = () => {
                                 <div className="hover:bg-black/45 absolute top-0 left-0 w-8 h-8 rounded-full transition-all duration-300"></div>
                                 <img src="/images/icons/facebook.png" alt="linkedin" className="w-[100%] h-[100%]" />
                             </a>
-                            <a href="" className="w-8 h-8 my-auto relative">
+                            <a href="https://www.instagram.com/biscuitt___/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 my-auto relative">
                                 <div className="hover:bg-black/45 absolute top-0 left-0 w-8 h-8 rounded-full transition-all duration-300"></div>
                                 <img src="/images/icons/instagram.png" alt="linkedin" className="w-[100%] h-[100%]" />
                             </a>
