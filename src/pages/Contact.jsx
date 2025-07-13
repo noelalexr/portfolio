@@ -50,7 +50,7 @@ const Contact = () => {
                 </motion.div>
                 <div className="lg:px-20 flex flex-col md:gap-5 gap-3 pl-13">
                     <motion.a
-                        initial={{ x: "75vw", opacity: 0 }}
+                        initial={{ x: "95vw", opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.6 }}
                         href="https://www.linkedin.com/in/noelalexander/" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out"
@@ -59,7 +59,7 @@ const Contact = () => {
                         <p className="text-[#0B69C7] my-auto text-lg font-bold">Linkedin</p>
                     </motion.a>
                     <motion.a
-                        initial={{ x: "75vw", opacity: 0 }}
+                        initial={{ x: "95vw", opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.7 }}
                         href="https://www.facebook.com/noelalexr" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out"
@@ -68,7 +68,7 @@ const Contact = () => {
                         <p className="text-[#1877F2] my-auto text-lg font-bold">Facebook</p>
                     </motion.a>
                     <motion.a
-                        initial={{ x: "75vw", opacity: 0 }}
+                        initial={{ x: "95vw", opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.8 }} className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out"
                         href="https://www.instagram.com/biscuitt___/" target="_blank" rel="noopener noreferrer"
