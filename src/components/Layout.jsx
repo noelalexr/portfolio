@@ -22,9 +22,9 @@ const Layout = () => {
     };
 
     return (
-        <div className="flex flex-col min-h-screen">
+        <div className="min-h-screen">
             <Header />
-            <main className="flex-grow">
+            <main>
                 <Outlet />
             </main>
             <AnimatePresence>

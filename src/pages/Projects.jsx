@@ -41,8 +41,8 @@ const Projects = () => {
                     >
                         <img src="images/projects/motohunt.png" alt="motohunt" className="lg:w-90 w-70 rounded-t-md" />
                         <div className="flex flex-row justify-around lg:mt-2 mt-1 lg:gap-2 gap-1">
-                            <a href="https://motohunt-beta.onrender.com/" target="_blank" rel="noopener noreferrer" className="bg-black/40 hover:bg-black/50 active:bg-black/50 text-white w-[50%] text-center rounded-bl-md py-1 transition-all duration-300 ease-in-out">Demo</a>
-                            <a href="" className="bg-black/40 hover:bg-black/50 active:bg-black/50 text-white w-[50%] text-center rounded-br-md py-1 transition-all duration-300 ease-in-out">Github</a>
+                            <a href="https://motohunt-beta.onrender.com/" target="_blank" rel="noopener noreferrer" className="bg-black/70 hover:bg-black/80 active:bg-black/80 font-semibold text-white w-[50%] text-center rounded-bl-md py-2 transition-all duration-300 ease-in-out">Demo</a>
+                            <a href="https://github.com/noelalexr/motohunt.git" className="bg-black/70 hover:bg-black/80 active:bg-black/80 font-semibold text-white w-[50%] text-center rounded-br-md py-2 transition-all duration-300 ease-in-out">Github</a>
                         </div>
                     </motion.div>
                     <motion.div
@@ -75,10 +75,10 @@ const Projects = () => {
                         viewport={{ once: true }}
                         className="flex flex-col bg-white lg:p-3 p-2 rounded-xl shadow-xl my-auto hover:scale-102 transition-all duration-500 ease-out md:mx-0 mx-auto"
                     >
-                        <img src="images/projects/guess-the-emoji.png" alt="motohunt" className="lg:w-90 w-70 rounded-t-md" />
+                        <img src="images/projects/guess-the-emoji.png" alt="guess-the-emoji" className="lg:w-90 w-70 rounded-t-md" />
                         <div className="flex flex-row justify-around lg:mt-2 mt-1 lg:gap-2 gap-1">
-                            <a href="https://guess-the-emoji.netlify.app/" target="_blank" rel="noopener noreferrer" className="bg-black/40 hover:bg-black/50 active:bg-black/50 text-white w-[50%] text-center rounded-bl-md py-1 transition-all duration-300 ease-in-out">Demo</a>
-                            <a href="https://github.com/noelalexr/guess-the-emoji.git" target="_blank" rel="noopener noreferrer" className="bg-black/40 hover:bg-black/50 active:bg-black/50 text-white w-[50%] text-center rounded-br-md py-1 transition-all duration-300 ease-in-out">Github</a>
+                            <a href="https://guess-the-emoji.netlify.app/" target="_blank" rel="noopener noreferrer" className="bg-black/70 hover:bg-black/80 active:bg-black/80 text-white w-[50%] text-center rounded-bl-md py-2 font-semibold transition-all duration-300 ease-in-out">Demo</a>
+                            <a href="https://github.com/noelalexr/guess-the-emoji.git" target="_blank" rel="noopener noreferrer" className="bg-black/70 hover:bg-black/80 active:bg-black/80 text-white w-[50%] text-center rounded-br-md py-2 font-semibold transition-all duration-300 ease-in-out">Github</a>
                         </div>
                     </motion.div>
                     <motion.div
@@ -108,10 +108,10 @@ const Projects = () => {
                         viewport={{ once: true }}
                         className="flex flex-col bg-white lg:p-3 p-2 rounded-xl shadow-xl my-auto hover:scale-102 transition-all duration-500 ease-out md:mx-0 mx-auto"
                     >
-                        <img src="images/projects/pawpals.png" alt="motohunt" className="lg:w-90 w-70 rounded-t-md" />
+                        <img src="images/projects/pawpals.png" alt="pawpals" className="lg:w-90 w-70 rounded-t-md" />
                         <div className="flex flex-row justify-around lg:mt-2 mt-1 lg:gap-2 gap-1">
-                            <a href="" className="bg-black/40 hover:bg-black/50 active:bg-black/50 text-white w-[50%] text-center rounded-bl-md py-1 transition-all duration-300 ease-in-out">Demo</a>
-                            <a href="" className="bg-black/40 hover:bg-black/50 active:bg-black/50 text-white w-[50%] text-center rounded-br-md py-1 transition-all duration-300 ease-in-out">Github</a>
+                            <a href="https://pawpals-beta.onrender.com" target="_blank" rel="noopener noreferrer" className="bg-black/70 hover:bg-black/80 active:bg-black/80 text-white w-[50%] text-center rounded-bl-md py-2 font-semibold transition-all duration-300 ease-in-out">Demo</a>
+                            <a href="https://github.com/noelalexr/pawpals.git" target="_blank" rel="noopener noreferrer" className="bg-black/70 hover:bg-black/80 active:bg-black/80 text-white w-[50%] text-center rounded-br-md py-2 font-semibold transition-all duration-300 ease-in-out">Github</a>
                         </div>
                     </motion.div>
                     <motion.div
@@ -147,8 +147,8 @@ const Projects = () => {
                     >
                         <img src="images/projects/healthtrackr.png" alt="motohunt" className="lg:w-90 w-70 rounded-t-md" />
                         <div className="flex flex-row justify-around lg:mt-2 mt-1 lg:gap-2 gap-1">
-                            <a href="" className="bg-black/40 hover:bg-black/50 active:bg-black/50 text-white w-[50%] text-center rounded-bl-md py-1 transition-all duration-300 ease-in-out">Demo</a>
-                            <a href="" className="bg-black/40 hover:bg-black/50 active:bg-black/50 text-white w-[50%] text-center rounded-br-md py-1 transition-all duration-300 ease-in-out">Github</a>
+                            <a href="https://healthtrackr-beta.netlify.app" target="_blank" rel="noopener noreferrer" className="bg-black/70 hover:bg-black/80 active:bg-black/80 text-white w-[50%] text-center rounded-bl-md py-2 font-semibold transition-all duration-300 ease-in-out">Demo</a>
+                            <a href="https://github.com/noelalexr/healthtrackr.git" target="_blank" rel="noopener noreferrer" className="bg-black/70 hover:bg-black/80 active:bg-black/80 text-white w-[50%] text-center rounded-br-md py-2 font-semibold transition-all duration-300 ease-in-out">Github</a>
                         </div>
                     </motion.div>
                     <motion.div
