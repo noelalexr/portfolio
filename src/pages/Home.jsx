@@ -28,7 +28,7 @@ const Home = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 1, ease: "easeOut" }}
-                    className="absolute bottom-0 z-10 flex lg:gap-160 md:gap-105 gap-48 lg:pb-3 md:pb-1 text-black/20 font-courier md:text-lg text-xs font-bold"
+                    className="absolute bottom-0 z-10 flex lg:gap-160 md:gap-105 gap-48 lg:pb-3 md:pb-1 text-black/40 font-courier md:text-lg text-[8px] font-bold"
                 >
                     <p className="">&lt;frontend&gt;</p>
                     <p className="">&lt;backend&gt;</p>
@@ -69,13 +69,13 @@ const Home = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.7, ease: "easeOut" }}
-                className="text-center pb-20 pt-18 bg-gray-100 relative shadow-sm z-2"
+                className="text-center pb-20 pt-17 bg-gray-100 relative shadow-sm z- px-8"
             >
                 <div className="pb-5 flex gap-3 justify-center items-center text-black/80">
                     <p className="md:text-4xl text-xl md:pt-7 pt-[13px]">I'm </p>
                     <p className="md:text-[65px] text-4xl font-bold tracking-wider font-paytone"> Alexander</p>
                 </div>
-                <p className="text-black/50 md:w-150 w-60 mx-auto text-lg">With a background in design engineering, I bring a problem-solving mindset into web development. I recently completed a full stack web development bootcamp and enjoy building responsive, user-focused web applications that solve real-world problems.</p>
+                <p className="text-black/50 md:w-180 mx-auto md:text-lg">With a background in design engineering, I bring a problem-solving mindset into web development. I recently completed a full stack web development bootcamp and enjoy building responsive, user-focused web applications that solve real-world problems.</p>
             </motion.div>
 
             <div className="bg-white py-20 z-1 relative shadow-sm overflow-hidden">
@@ -86,9 +86,9 @@ const Home = () => {
                     viewport={{ once: true }}
                     className="md:flex flex-row justify-center items-center gap-5 pb-10 hidden"
                 >
-                    <div className="bg-black/15 h-[2px] lg:w-[20%] w-[15%] my-auto"></div>
+                    <div className="bg-black/15 h-[2px] max-w-70 lg:w-[20%] w-[15%] my-auto"></div>
                     <p className="text-lg text-black/45 text-center my-auto">Dive into my projects, learn more about me, or get in touch!</p>
-                    <div className="bg-black/15 h-[2px] lg:w-[20%] w-[15%] my-auto"></div>
+                    <div className="bg-black/15 h-[2px] max-w-70 lg:w-[20%] w-[15%] my-auto"></div>
                 </motion.div>
                 <div className="flex md:flex-row flex-col justify-center md:gap-20 gap-5">
                     <motion.div
@@ -108,10 +108,10 @@ const Home = () => {
                         transition={{ duration: 0.3, ease: "easeOut" }}
                         viewport={{ once: true }}
                         href="/projects"
-                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] active:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto"
+                        className="group relative flex justify-center items-center bg-[#262626] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#0D0D0D] active:bg-[#0D0D0D] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto"
                     >
                         <img src="/images/icons/projects.png" alt="projects" className="w-18" />
-                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#404040] group-hover:text-[#242424] group-active:text-[#242424] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">Projects</p>
+                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#262626] group-hover:text-[#0D0D0D] group-active:text-[#0D0D0D] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">Projects</p>
                     </motion.a>
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -129,9 +129,9 @@ const Home = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.3, ease: "easeOut", delay: 0.1 }}
                         viewport={{ once: true }} href="/about"
-                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] active:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
+                        className="group relative flex justify-center items-center bg-[#262626] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#0D0D0D] active:bg-[#0D0D0D] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
                         <img src="/images/icons/about.png" alt="projects" className="w-20 m-auto" />
-                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#404040] group-hover:text-[#242424] group-active:text-[#242424] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">About me</p>
+                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#262626] group-hover:text-[#0D0D0D] group-active:text-[#0D0D0D] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">About me</p>
                     </motion.a>
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -150,9 +150,9 @@ const Home = () => {
                         transition={{ duration: 0.3, ease: "easeOut", delay: 0.2 }}
                         viewport={{ once: true }}
                         href="/contact"
-                        className="group relative flex justify-center items-center bg-[#404040] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#242424] active:bg-[#242424] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
+                        className="group relative flex justify-center items-center bg-[#262626] w-40 h-30 rounded-2xl shadow-md shadow-black/50 hover:bg-[#0D0D0D] active:bg-[#0D0D0D] hover:scale-105 hover:shadow-lg transition-all duration-500 ease-out cursor-pointer md:mx-0 mx-auto">
                         <img src="/images/icons/email.png" alt="projects" className="w-20 m-auto" />
-                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#404040] group-hover:text-[#242424] group-active:text-[#242424] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">Contact me</p>
+                        <p className="absolute bottom-0 group-hover:-bottom-9 text-[#262626] group-hover:text-[#0D0D0D] group-active:text-[#0D0D0D] font-bold shadow-black/50 transition-all duration-500 ease-out text-xl">Contact me</p>
                     </motion.a>
                 </div>
             </div>
@@ -164,10 +164,10 @@ const Home = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.7, ease: "easeOut" }}
                         viewport={{ once: true }}
-                        className="md:text-right text-center my-auto md:w-100 px-5"
+                        className="md:text-right my-auto md:w-100 px-8"
                     >
                         <p className="text-3xl text-black/75 pb-5">Resume</p>
-                        <p className="text-black/50 text-lg my-auto">Want to know more about my skills and experience? Feel free to view my resume or download it here!</p>
+                        <p className="text-black/50 md:text-lg my-auto">Want to know more about my skills and experience? Feel free to view my resume or download it here!</p>
                     </motion.div>
                     <motion.a
                         initial={{ opacity: 0, x: "100%" }}
