@@ -50,11 +50,11 @@ const Projects = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.7, ease: "easeOut" }}
                         viewport={{ once: true }}
-                        className="my-auto lg:w-90 w-80 md:mx-0 mx-auto md:text-left text-center"
+                        className="my-auto lg:w-90 md:w-80 md:mx-0 mx-auto text-left w-[80vw]"
                     >
                         <p className="text-3xl text-black/70 pb-3">MotoHunt</p>
                         <p className="text-black/50 text-sm">MotoHunt is a community-driven app built for motorcycle enthusiasts. Users can post their own bikes, browse detailed specs of other bikes, and save favorites to a personal wishlist. With a responsive UI and intuitive flow, MotoHunt makes exploring and sharing rides easy and fun.</p>
-                        <div className="flex flex-wrap md:justify-start justify-center gap-2 mt-5">
+                        <div className="flex flex-wrap justify-start gap-2 mt-5">
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">React</span>
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">Express.js</span>
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">Node.js</span>
@@ -86,11 +86,11 @@ const Projects = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.7, ease: "easeOut" }}
                         viewport={{ once: true }}
-                        className="my-auto lg:w-90 w-80 md:mx-0 mx-auto md:text-left text-center"
+                        className="my-auto lg:w-90 md:w-80 w-[80vw] md:mx-0 mx-auto text-left"
                     >
                         <p className="text-3xl text-black/70 pb-3">Guess The Emoji</p>
                         <p className="text-black/50 text-sm">Guess-the-Emoji is a fun JavaScript-based game where players guess words represented by emojis. Built with only HTML, CSS, and vanilla JavaScript, it fetches random words from an AI API and converts them into emoji puzzles. Players can choose categories, set the number of rounds, and track their score as they play.</p>
-                        <div className="flex flex-wrap md:justify-start justify-center gap-2 mt-5">
+                        <div className="flex flex-wrap justify-start gap-2 mt-5">
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">JavaScript</span>
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">HTML</span>
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">CSS</span>
@@ -119,11 +119,11 @@ const Projects = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.7, ease: "easeOut" }}
                         viewport={{ once: true }}
-                        className="my-auto lg:w-90 w-80 md:mx-0 mx-auto md:text-left text-center"
+                        className="my-auto lg:w-90 md:w-80 md:mx-0 mx-auto text-left w-[80vw]"
                     >
                         <p className="text-3xl text-black/70 pb-3">Pawpals</p>
                         <p className="text-black/50 text-sm">PawPals is a pet adoption platform where users can browse pets posted by various kennels. Each pet listing includes detailed info along with kennel details, making it easy for users to find and connect with adoption centers.</p>
-                        <div className="flex flex-wrap md:justify-start justify-center gap-2 mt-5">
+                        <div className="flex flex-wrap justify-start gap-2 mt-5">
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">React</span>
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">Express.js</span>
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">Node.js</span>
@@ -156,11 +156,11 @@ const Projects = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.7, ease: "easeOut" }}
                         viewport={{ once: true }}
-                        className="my-auto lg:w-90 w-80 md:mx-0 mx-auto md:text-left text-center"
+                        className="my-auto lg:w-90 md:w-80 md:mx-0 mx-auto text-left w-[80vw]"
                     >
                         <p className="text-3xl text-black/70 pb-3">HealthTrackr</p>
                         <p className="text-black/50 text-sm">HealthTrackr helps users save and monitor their vital signs with built-in health calculations. It provides instant feedback, warning users if medical attention may be needed or reassuring them when their vitals are in a healthy range.</p>
-                        <div className="flex flex-wrap md:justify-start justify-center gap-2 mt-5">
+                        <div className="flex flex-wrap justify-start gap-2 mt-5">
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">React</span>
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">Tailwind CSS</span>
                             <span className="px-2 py-1 text-black/75 bg-black/10 text-sm rounded-md">JavaScript</span>

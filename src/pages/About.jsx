@@ -28,7 +28,7 @@ const About = () => {
         }, [isInView, controls, level]);
 
         return (
-            <div ref={ref} className="mb-4 md:w-80 w-60 lg:mx-10 mx-8">
+            <div ref={ref} className="mb-4 md:w-80 w-[80vw] lg:mx-10 mx-8">
                 <div className="flex justify-between mb-0">
                     <span className="text-black/60 md:text-lg">{name}</span>
                     <span className="text-black/45 mt-auto">{level}%</span>

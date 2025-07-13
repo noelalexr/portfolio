@@ -43,13 +43,13 @@ const Header = () => {
                     />
                 </a>
                 <div className="md:flex hidden gap-15">
-                    <div className="flex flex-row gap-5 text-white my-auto">
+                    <div className="flex flex-row gap-8 text-white my-auto">
                         <a href="/about" className="hover:text-gray-400 active:text-gray-400 transition-all duration-300">About</a>
                         <a href="/projects" className="hover:text-gray-400 active:text-gray-400 transition-all duration-300">Projects</a>
                         <a href="https://drive.google.com/file/d/1ypxM6ttVSOhLz0RX978Kk5V20_-uMJrC/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 active:text-gray-400 transition-all duration-300">Resume</a>
                         <a href="/contact" className="hover:text-gray-400 active:text-gray-400 transition-all duration-300">Contact</a>
                     </div>
-                    <div className="flex flex-row justify-center items-center gap-5">
+                    <div className="flex flex-row justify-center items-center gap-6">
                         <a href="https://www.linkedin.com/in/noelalexander/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 my-auto relative">
                             <div className="hover:bg-black/45 active:bg-black/45 absolute top-0 left-0 w-8 h-8 rounded-full transition-all duration-300"></div>
                             <img src="/images/icons/linkedin.png" alt="linkedin" className="w-8 h-8" />
