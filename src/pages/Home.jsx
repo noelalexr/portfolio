@@ -9,7 +9,7 @@ const Home = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 1, ease: "easeOut" }}
-                    src="/images/me/painted-face-half-bg-white.png" alt="" className="absolute left-1/2 -translate-x-1/2 bottom-0 lg:h-120 md:h-80 h-35 z-1"
+                    src="/images/me/painted-face-half-bg-white.jpg" alt="" className="absolute left-1/2 -translate-x-1/2 bottom-0 lg:h-120 md:h-80 h-35 z-1"
                 />
                 <motion.div
                     initial={{ opacity: 0 }}
@@ -46,8 +46,8 @@ const Home = () => {
                     <p className="md:text-2xl text-xs md:pr-20 pr-5 md:hover:scale-115 hover:scale-110 transition-all duration-1000 group-hover:text-black/60">Postman</p>
                     <p className="md:text-xl text-xs md:pl-10 pl-3 md:hover:scale-115 hover:scale-110 transition-all duration-1000 group-hover:text-black/40">JWT / Auth</p>
                 </motion.div>
-                <img src="/images/me/painted-face-full-bg-white.png" alt="" className="absolute left-1/2 -translate-x-1/2 bottom-0 lg:h-120 md:h-80 h-35 opacity-0 peer-hover/l:opacity-100 z-2 transition-all duration-1000 ease-in" />
-                <img src="/images/me/no-paint-face-bg-white.png" alt="" className="absolute left-1/2 -translate-x-1/2 bottom-0 lg:h-120 md:h-80 h-35 opacity-0 peer-hover/r:opacity-100 z-2 transition-all duration-1000 ease-in" />
+                <img src="/images/me/painted-face-full-bg-white.jpg" alt="" className="absolute left-1/2 -translate-x-1/2 bottom-0 lg:h-120 md:h-80 h-35 opacity-0 peer-hover/l:opacity-100 z-2 transition-all duration-1000 ease-in" />
+                <img src="/images/me/no-paint-face-bg-white.jpg" alt="" className="absolute left-1/2 -translate-x-1/2 bottom-0 lg:h-120 md:h-80 h-35 opacity-0 peer-hover/r:opacity-100 z-2 transition-all duration-1000 ease-in" />
                 <div className="bg-white/5 absolute left-1/2 -translate-x-1/2 bottom-0 w-160 h-120 opacity-0 peer-hover/l:opacity-100 z-2 transition-all duration-1000 ease-in"></div>
                 <div className="bg-white/5 absolute left-1/2 -translate-x-1/2 bottom-0 w-160 h-120 opacity-0 peer-hover/r:opacity-100 z-2 transition-all duration-1000 ease-in"></div>
             </div>
@@ -56,7 +56,7 @@ const Home = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.7, ease: "easeOut" }}
-                className="text-center md:py-20 pb-[20vh] pt-20 bg-gray-100 relative shadow-sm"
+                className="text-center py-20 bg-gray-100 relative shadow-sm"
             >
                 <div className="pb-5 flex gap-3 justify-center items-center text-black/80">
                     <p className="md:text-4xl text-xl md:pt-7 pt-[13px]">I'm </p>

@@ -58,7 +58,7 @@ const About = () => {
                     <p className="text-black/50 text-lg">Hi there! I'm Alexander, a design engineer turned full-stack web developer. I'm passionate about building meaningful, user-focused solutions through code and design. Right now, I'm focused on growing my skills in modern web technologies and creating projects that solve real-world problems while showcasing my creativity and technical ability.</p>
                 </motion.div>
                 <div className="relative my-auto md:mx-0 mx-auto xl:w-90 lg:w-80 md:w-70 w-60 md:block hidden">
-                    <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-white/5 rounded-full"></div>
+                    <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-white/10 rounded-full"></div>
                     <motion.img
                         animate={{
                             x: ["-65%", "-65%", 0],
