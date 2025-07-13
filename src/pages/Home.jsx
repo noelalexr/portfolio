@@ -71,9 +71,9 @@ const Home = () => {
                 transition={{ duration: 0.5, delay: 1.7, ease: "easeOut" }}
                 className="text-center pb-20 pt-17 bg-gray-100 relative shadow-sm z- px-8"
             >
-                <div className="pb-5 flex gap-3 justify-center items-center text-black/80">
-                    <p className="md:text-4xl text-xl md:pt-7 pt-[13px]">I'm </p>
-                    <p className="md:text-[65px] text-4xl font-bold tracking-wider font-paytone"> Alexander</p>
+                <div className="pb-5 flex md:gap-3 gap-2 justify-center items-center text-black/80">
+                    <p className="md:text-4xl text-[27px] md:pt-7 pt-[20px]">I'm </p>
+                    <p className="md:text-[65px] text-[47px] font-bold tracking-wider font-paytone"> Alexander</p>
                 </div>
                 <p className="text-black/50 md:w-180 mx-auto md:text-lg">With a background in design engineering, I bring a problem-solving mindset into web development. I recently completed a full stack web development bootcamp and enjoy building responsive, user-focused web applications that solve real-world problems.</p>
             </motion.div>
