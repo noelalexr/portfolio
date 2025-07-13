@@ -82,7 +82,7 @@ const Contact = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 1.9 }}
-                className="bg-gray-100 py-20 shadow-sm"
+                className="bg-gray-100 py-20 relative shadow-sm"
             >
                 <div className="">
                     <p className="text-3xl text-black/75 text-center pb-10">Send me an email</p>
