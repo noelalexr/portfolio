@@ -4,18 +4,22 @@ import { motion, AnimatePresence } from "framer-motion"
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const menuRef = useRef(null);
+    const burgerRef = useRef(null);
 
     useEffect(() => {
         const handleClickOutside = (event) => {
-            if (menuRef.current && !menuRef.current.contains(event.target)) {
+            if (
+                menuRef.current &&
+                !menuRef.current.contains(event.target) &&
+                burgerRef.current &&
+                !burgerRef.current.contains(event.target)
+            ) {
                 setIsOpen(false);
             }
         };
 
         if (isOpen) {
             document.addEventListener("mousedown", handleClickOutside);
-        } else {
-            document.removeEventListener("mousedown", handleClickOutside);
         }
 
         return () => {
@@ -60,7 +64,7 @@ const Header = () => {
                         </a>
                     </div>
                 </div>
-                <button onClick={() => setIsOpen(!isOpen)} className={`my-auto md:hidden  ${isOpen ? "text-gray-500" : "text-white"}`}>
+                <button ref={burgerRef} onClick={() => setIsOpen(!isOpen)} className={`my-auto md:hidden  ${isOpen ? "text-gray-500" : "text-white"}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-9">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>
@@ -74,13 +78,13 @@ const Header = () => {
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.3, ease: "easeOut" }}
                         exit={{ x: "100%", opacity: 0 }}
-                        className="absolute top-14 right-0 md:hidden bg-[#191919] z-20 w-[70%] text-white text-center flex flex-col rounded-bl-xl"
+                        className="absolute top-14 right-0 md:hidden bg-[#191919] z-20 w-[70%] text-white text-center flex flex-col rounded-bl-xl text-lg"
                     >
-                        <a href="/about" className="py-3 hover:bg-black active:bg-black transition-all duration-300">About</a>
-                        <a href="/projects" className="py-3 hover:bg-black active:bg-black transition-all duration-300">Projects</a>
-                        <a href="https://drive.google.com/file/d/1ypxM6ttVSOhLz0RX978Kk5V20_-uMJrC/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="py-3 hover:bg-black active:bg-black transition-all duration-300">Resume</a>
-                        <a href="/contact" className="py-3 hover:bg-black active:bg-black transition-all duration-300">Contact</a>
-                        <div className={`flex flex-row justify-center items-center gap-8 py-5`}>
+                        <a href="/about" className="py-5 hover:bg-black active:bg-black transition-all duration-300">About</a>
+                        <a href="/projects" className="py-5 hover:bg-black active:bg-black transition-all duration-300">Projects</a>
+                        <a href="https://drive.google.com/file/d/1ypxM6ttVSOhLz0RX978Kk5V20_-uMJrC/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="py-5 hover:bg-black active:bg-black transition-all duration-300">Resume</a>
+                        <a href="/contact" className="py-5 hover:bg-black active:bg-black transition-all duration-300">Contact</a>
+                        <div className={`flex flex-row justify-center items-center gap-8 py-8`}>
                             <a href="https://www.linkedin.com/in/noelalexander/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 my-auto relative">
                                 <div className="hover:bg-black/45 active:bg-black/45 absolute top-0 left-0 w-8 h-8 rounded-full transition-all duration-300"></div>
                                 <img src="/images/icons/linkedin.png" alt="linkedin" className="w-8 h-8" />
