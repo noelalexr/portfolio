@@ -72,7 +72,7 @@ const Home = () => {
                 className="md:text-center md:py-20 pb-20 pt-15 bg-gray-100 relative shadow-sm z- px-8"
             >
                 <div className="pb-5 flex flex-col md:gap-0 gap-2 md:justify-center md:items-center">
-                    <p className="md:text2xl text-lg text-black/70">Hello there, I'm </p>
+                    <p className="md:text-2xl text-lg text-black/70">Welcome to my creative space. I'm </p>
                     <p className="md:text-[65px] text-[38px] font-bold md:tracking-wider font-paytone text-black/80"> Alexander Noel</p>
                 </div>
                 <p className="text-black/50 md:w-180 mx-auto md:text-lg">With a background in design engineering, I bring a problem-solving mindset into web development. I recently completed a full stack web development bootcamp and enjoy building responsive, user-focused web applications that solve real-world problems.</p>
