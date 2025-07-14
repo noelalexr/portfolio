@@ -33,7 +33,7 @@ const About = () => {
                     <span className="text-black/60 md:text-lg">{name}</span>
                     <span className="text-black/45 mt-auto">{level}%</span>
                 </div>
-                <div className=" bg-gray-300/50 rounded-sm h-7 overflow-hidden">
+                <div className=" bg-gray-300/60 rounded-md h-7 overflow-hidden">
                     <motion.div
                         className="h-7 bg-gray-500"
                         initial={{ width: 0 }}

@@ -97,7 +97,7 @@ const Contact = () => {
                                         value={formData.name}
                                         onChange={handleChange}
                                         required
-                                        className="bg-white lg:w-80 md:w-100 w-[80vw] rounded-md p-2 px-4 outline-none border-2 border-gray-300 focus:border-gray-500 transition-all duration-500 ease-in-out"
+                                        className="bg-white lg:w-80 md:w-100 w-[80vw] rounded-md p-2 px-4 outline-none border-2 border-gray-300 focus:border-gray-600 transition-all duration-500 ease-in-out"
                                     />
                                 </div>
                                 <div className="inline-block lg:mx-0 mx-auto">
@@ -108,7 +108,7 @@ const Contact = () => {
                                         value={formData.email}
                                         onChange={handleChange}
                                         required
-                                        className="bg-white lg:w-80 md:w-100 w-[80vw] rounded-md p-2 px-4 outline-none border-2 border-gray-300 focus:border-gray-500 transition-all duration-500 ease-in-out"
+                                        className="bg-white lg:w-80 md:w-100 w-[80vw] rounded-md p-2 px-4 outline-none border-2 border-gray-300 focus:border-gray-600 transition-all duration-500 ease-in-out"
                                     />
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ const Contact = () => {
                                     onChange={handleChange}
                                     rows={6}
                                     required
-                                    className="bg-white md:w-120 w-[80vw] rounded-md p-2 px-4 outline-none border-2 border-gray-300 focus:border-gray-500 transition-all duration-500 ease-in-out"
+                                    className="bg-white md:w-120 w-[80vw] rounded-md p-2 px-4 outline-none border-2 border-gray-300 focus:border-gray-600 transition-all duration-500 ease-in-out"
                                 ></textarea>
                                 <div className="flex md:flex-row flex-col justify-center">
                                     {statusMessage && (
@@ -134,7 +134,7 @@ const Contact = () => {
                                     <button
                                         type="submit"
                                         disabled={isLoading}
-                                        className={`bg-black/70 text-white h-10 w-42 rounded-md md:mt-3 mt-2 md:ml-auto ml-auto transition-all duration-300 hover:bg-black/80 active:bg-black/80 cursor-pointer ${isLoading ? "opacity-50 cursor-not-allowed" : ""
+                                        className={`bg-black/80 text-white h-10 w-42 rounded-md md:mt-3 mt-2 md:ml-auto ml-auto transition-all duration-300 hover:bg-black/90 active:bg-black/90 cursor-pointer ${isLoading ? "opacity-50 cursor-not-allowed" : ""
                                             }`}
                                     >
                                         {isLoading ? (
