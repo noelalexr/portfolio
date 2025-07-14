@@ -24,7 +24,7 @@ const Layout = () => {
     return (
         <div className="min-h-screen">
             <Header />
-            <main>
+            <main className="overflow-hidden">
                 <Outlet />
             </main>
             <AnimatePresence>
