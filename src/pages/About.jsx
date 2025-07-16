@@ -89,7 +89,7 @@ const About = () => {
                     className="text-left px-8 md:hidden max-w-120 mx-auto"
                 >
                     <p className="font-paytone text-5xl pb-5 text-black/80 pt-10">About me</p>
-                    <p className="text-black/60 text-md">Hi there! I'm Alexander, a design engineer turned full-stack web developer. I'm passionate about building meaningful, user-focused solutions through code and design. Right now, I'm focused on growing my skills in modern web technologies and creating projects that solve real-world problems while showcasing my creativity and technical ability.</p>
+                    <p className="text-black/60 text-md">I'm a design engineer turned full-stack web developer. I'm passionate about building meaningful, user-focused solutions through code and design. Right now, I'm focused on growing my skills in modern web technologies and creating projects that solve real-world problems while showcasing my creativity and technical ability.</p>
                 </motion.div>
             </div>
             <motion.div
