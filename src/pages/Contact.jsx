@@ -53,7 +53,7 @@ const Contact = () => {
                         initial={{ x: "95vw", opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.6 }}
-                        href="https://www.linkedin.com/in/noelalexander/" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out"
+                        href="https://www.linkedin.com/in/noel-alexander/" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-3 hover:scale-105 active:scale-95 duration-500 ease-in-out"
                     >
                         <img src="/images/icons/linkedin-original.png" alt="" className="md:w-15 w-12" />
                         <p className="text-[#0B69C7] my-auto text-lg font-bold">Linkedin</p>
