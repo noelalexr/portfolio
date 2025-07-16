@@ -30,8 +30,21 @@ const Home = () => {
                     transition={{ duration: 0.5, delay: 1, ease: "easeOut" }}
                     className="absolute bottom-0 z-10 flex lg:gap-160 md:gap-105 gap-48 lg:pb-3 md:pb-1 text-black/40 font-courier md:text-lg text-[8px] font-bold"
                 >
-                    <p className="">&lt;frontend/&gt;</p>
-                    <p className="">&lt;backend/&gt;</p>
+                    <motion.p
+                        initial={{ y: 30, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.2, delay: 2.4, ease: "easeOut" }}
+                        className=""
+                    >
+                        &lt;frontend/&gt;
+                    </motion.p>
+                    <motion.p initial={{ y: 30, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.2, delay: 2.5, ease: "easeOut" }}
+                        className=""
+                    >
+                        &lt;backend/&gt;
+                    </motion.p>
                 </motion.div>
                 <div className="peer/l bg-red-50/0 h-[100%] w-[50%] z-5 flex flex-col justify-center items-center md:gap-1 font-marker md:hover:scale-110 hover:scale-105 md:hover:gap-3 transition-all duration-1000 easi-in group text-[#99a1afab] xl:ml-[12%] lg:ml-[5%] md:ml-[3%] ml-1 lg:pt-10 md:pt-3">
                     <motion.p
