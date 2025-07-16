@@ -50,7 +50,7 @@ const Header = () => {
                         <a href="/contact" className="hover:text-gray-400 active:text-gray-400 transition-all duration-300">Contact</a>
                     </div>
                     <div className="flex flex-row justify-center items-center gap-6">
-                        <a href="https://www.linkedin.com/in/noelalexander/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 my-auto relative">
+                        <a href="https://www.linkedin.com/in/noel-alexander/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 my-auto relative">
                             <div className="hover:bg-black/45 active:bg-black/45 absolute top-0 left-0 w-8 h-8 rounded-full transition-all duration-300"></div>
                             <img src="/images/icons/linkedin.png" alt="linkedin" className="w-8 h-8" />
                         </a>
@@ -85,7 +85,7 @@ const Header = () => {
                         <a href="https://drive.google.com/file/d/1ypxM6ttVSOhLz0RX978Kk5V20_-uMJrC/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="py-5 hover:bg-black active:bg-black transition-all duration-300">Resume</a>
                         <a href="/contact" className="py-5 hover:bg-black active:bg-black transition-all duration-300">Contact</a>
                         <div className={`flex flex-row justify-center items-center gap-8 py-8`}>
-                            <a href="https://www.linkedin.com/in/noelalexander/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 my-auto relative">
+                            <a href="https://www.linkedin.com/in/noel-alexander/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 my-auto relative">
                                 <div className="hover:bg-black/45 active:bg-black/45 absolute top-0 left-0 w-8 h-8 rounded-full transition-all duration-300"></div>
                                 <img src="/images/icons/linkedin.png" alt="linkedin" className="w-8 h-8" />
                             </a>
