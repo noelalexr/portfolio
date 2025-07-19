@@ -39,7 +39,7 @@ const Projects = () => {
                         viewport={{ once: true }}
                         className="flex flex-col bg-white lg:p-3 p-2 rounded-xl shadow-xl my-auto hover:scale-105 transition-all duration-700 ease-out md:mx-0 mx-auto"
                     >
-                        <img src="images/projects/motohunt.png" alt="motohunt" className="lg:w-90 w-70 rounded-t-md" />
+                        <img src="images/projects/motohunt.png" alt="motohunt" className="lg:w-110 w-70 rounded-t-md" />
                         <div className="flex flex-row justify-around lg:mt-2 mt-1 lg:gap-2 gap-1">
                             <a href="https://motohunt-beta.onrender.com/" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center gap-2 bg-black/80 hover:bg-black/90 active:bg-black/90 text-white w-[50%] text-center rounded-bl-md py-2 transition-all duration-300 ease-in-out">
                                 <img src="/images/icons/open.png" alt="" className="w-5 h-5" />
@@ -59,7 +59,7 @@ const Projects = () => {
                         className="my-auto lg:w-90 md:w-80 md:mx-0 mx-auto text-left w-[80vw]"
                     >
                         <p className="text-3xl text-black/80 pb-3">MotoHunt</p>
-                        <p className="text-black/60 text-sm">MotoHunt is a community-driven app built for motorcycle enthusiasts. Users can post their own bikes, browse detailed specs of other bikes, and save favorites to a personal wishlist. With a responsive UI and intuitive flow, MotoHunt makes exploring and sharing rides easy and fun.</p>
+                        <p className="text-black/60">MotoHunt is a community-driven app built for motorcycle enthusiasts. Users can post their own bikes, browse detailed specs of other bikes, and save favorites to a personal wishlist. With a responsive UI and intuitive flow, MotoHunt makes exploring and sharing rides easy and fun.</p>
                         <div className="flex flex-wrap justify-start gap-2 mt-5">
                             <span className="px-2 py-1 text-black/60 bg-black/10 text-sm rounded-md">React</span>
                             <span className="px-2 py-1 text-black/60 bg-black/10 text-sm rounded-md">Express.js</span>
@@ -73,7 +73,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="py-25 bg-white relative shadow-sm z-3">
+            <div className="py-25 bg-gray-50 relative shadow-sm z-3">
                 {/* GUESS-THE-EMOJI */}
                 <div className="flex md:flex-row flex-col justify-center md:gap-10 gap-5 lg:pl-50 md:pl-20 pl-0">
                     <motion.div
@@ -83,7 +83,7 @@ const Projects = () => {
                         viewport={{ once: true }}
                         className="flex flex-col bg-white lg:p-3 p-2 rounded-xl shadow-xl my-auto hover:scale-105 transition-all duration-700 ease-out md:mx-0 mx-auto"
                     >
-                        <img src="images/projects/guess-the-emoji.png" alt="guess-the-emoji" className="lg:w-90 w-70 rounded-t-md" />
+                        <img src="images/projects/guess-the-emoji.png" alt="guess-the-emoji" className="lg:w-110 w-70 rounded-t-md" />
                         <div className="flex flex-row justify-around lg:mt-2 mt-1 lg:gap-2 gap-1">
                             <a href="https://guess-the-emoji.netlify.app/" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center gap-2 bg-black/80 hover:bg-black/90 active:bg-black/90 text-white w-[50%] text-center rounded-bl-md py-2 transition-all duration-300 ease-in-out">
                                 <img src="/images/icons/open.png" alt="" className="w-5 h-5" />
@@ -103,7 +103,7 @@ const Projects = () => {
                         className="my-auto lg:w-90 md:w-80 w-[80vw] md:mx-0 mx-auto text-left"
                     >
                         <p className="text-3xl text-black/80 pb-3">Guess The Emoji</p>
-                        <p className="text-black/60 text-sm">Guess-the-Emoji is a fun JavaScript-based game where players guess words represented by emojis. Built with only HTML, CSS, and vanilla JavaScript, it fetches random words from an AI API and converts them into emoji puzzles. Players can choose categories, set the number of rounds, and track their score as they play.</p>
+                        <p className="text-black/60">Guess-the-Emoji is a fun JavaScript-based game where players guess words represented by emojis. Built with only HTML, CSS, and vanilla JavaScript, it fetches random words from an AI API and converts them into emoji puzzles. Players can choose categories, set the number of rounds, and track their score as they play.</p>
                         <div className="flex flex-wrap justify-start gap-2 mt-5">
                             <span className="px-2 py-1 text-black/60 bg-black/10 text-sm rounded-md">JavaScript</span>
                             <span className="px-2 py-1 text-black/60 bg-black/10 text-sm rounded-md">HTML</span>
@@ -124,7 +124,7 @@ const Projects = () => {
                         viewport={{ once: true }}
                         className="flex flex-col bg-white lg:p-3 p-2 rounded-xl shadow-xl my-auto hover:scale-105 transition-all duration-700 ease-out md:mx-0 mx-auto"
                     >
-                        <img src="images/projects/pawpals.png" alt="pawpals" className="lg:w-90 w-70 rounded-t-md" />
+                        <img src="images/projects/pawpals.png" alt="pawpals" className="lg:w-110 w-70 rounded-t-md" />
                         <div className="flex flex-row justify-around lg:mt-2 mt-1 lg:gap-2 gap-1">
                             <a href="https://pawpals-beta.onrender.com" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center gap-2 bg-black/80 hover:bg-black/90 active:bg-black/90 text-white w-[50%] text-center rounded-bl-md py-2 transition-all duration-300 ease-in-out">
                                 <img src="/images/icons/open.png" alt="" className="w-5 h-5" />
@@ -144,7 +144,7 @@ const Projects = () => {
                         className="my-auto lg:w-90 md:w-80 md:mx-0 mx-auto text-left w-[80vw]"
                     >
                         <p className="text-3xl text-black/80 pb-3">Pawpals</p>
-                        <p className="text-black/60 text-sm">PawPals is a pet adoption platform where users can browse pets posted by various kennels. Each pet listing includes detailed info along with kennel details, making it easy for users to find and connect with adoption centers.</p>
+                        <p className="text-black/60">PawPals is a pet adoption platform where users can browse pets posted by various kennels. Each pet listing includes detailed info along with kennel details, making it easy for users to find and connect with adoption centers.</p>
                         <div className="flex flex-wrap justify-start gap-2 mt-5">
                             <span className="px-2 py-1 text-black/60 bg-black/10 text-sm rounded-md">React</span>
                             <span className="px-2 py-1 text-black/60 bg-black/10 text-sm rounded-md">Express.js</span>
@@ -159,7 +159,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="py-25 bg-white relative shadow-sm z-1">
+            <div className="py-25 bg-gray-50 relative shadow-sm z-1">
                 {/* HEALTHTRACKR */}
                 <div className="flex md:flex-row flex-col justify-center md:gap-10 gap-5 lg:pl-50 md:pl-20 pl-0">
                     <motion.div
@@ -169,7 +169,7 @@ const Projects = () => {
                         viewport={{ once: true }}
                         className="flex flex-col bg-white lg:p-3 p-2 rounded-xl shadow-xl my-auto hover:scale-105 transition-all duration-700 ease-out md:mx-0 mx-auto"
                     >
-                        <img src="images/projects/healthtrackr.png" alt="motohunt" className="lg:w-90 w-70 rounded-t-md" />
+                        <img src="images/projects/healthtrackr.png" alt="motohunt" className="lg:w-110 w-70 rounded-t-md" />
                         <div className="flex flex-row justify-around lg:mt-2 mt-1 lg:gap-2 gap-1">
                             <a href="https://healthtrackr-beta.netlify.app" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center gap-2 bg-black/80 hover:bg-black/90 active:bg-black/90 text-white w-[50%] text-center rounded-bl-md py-2 transition-all duration-300 ease-in-out">
                                 <img src="/images/icons/open.png" alt="" className="w-5 h-5" />
@@ -189,7 +189,7 @@ const Projects = () => {
                         className="my-auto lg:w-90 md:w-80 md:mx-0 mx-auto text-left w-[80vw]"
                     >
                         <p className="text-3xl text-black/80 pb-3">HealthTrackr</p>
-                        <p className="text-black/60 text-sm">HealthTrackr helps users save and monitor their vital signs with built-in health calculations. It provides instant feedback, warning users if medical attention may be needed or reassuring them when their vitals are in a healthy range.</p>
+                        <p className="text-black/60">HealthTrackr helps users save and monitor their vital signs with built-in health calculations. It provides instant feedback, warning users if medical attention may be needed or reassuring them when their vitals are in a healthy range.</p>
                         <div className="flex flex-wrap justify-start gap-2 mt-5">
                             <span className="px-2 py-1 text-black/60 bg-black/10 text-sm rounded-md">React</span>
                             <span className="px-2 py-1 text-black/60 bg-black/10 text-sm rounded-md">Tailwind CSS</span>
